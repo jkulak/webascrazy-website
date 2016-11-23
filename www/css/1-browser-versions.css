@@ -1,0 +1,182 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(20,222,146)),
+      color-stop(1, rgb(44,161,114))
+  );
+  background: -moz-linear-gradient(
+      center top,
+      rgb(20,222,146) 0%,
+      rgb(44,161,114) 100%
+  );
+  background-color: rgb(39,102,101);
+  background-image: url(/s/1-bv/bg.jpg);
+    
+  font-family: Georgia, sans-serif;
+  font-size: 0.8em;
+
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+h1 {
+
+  font-size: 39pt;
+  color: rgb(1,51,32);
+  text-shadow: 0 1px #6effca;
+  margin: 20px 0 0 290px;
+}
+
+h2 {
+  width: 370px;
+  text-align: right;
+  margin: 0 0 0 500px;
+  right: 30px;
+  font-size: 12pt;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#site {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.dashedbar {
+  height: 20px;
+  width: 100%;
+  padding: 5px 0 0 7px;
+  display: block;
+  background: #3455a5 url("/s/dashed-bg.png");
+  font-family: Tahoma, sans-serif;
+}
+
+/* header */
+
+header {
+  color: #6EFFCA;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 6px;
+}
+
+header ul li {
+  float: left;
+  text-indent: -9999px;
+}
+
+header ul li a {
+  width: 17px;
+  height: 16px;
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+}
+
+header ul li .twitter {
+  background-image: url("/s/twitter-icon.png");
+  width: 30px;
+}
+
+header ul li .flickr {
+  background-image: url("/s/flickr-icon.png");
+}
+
+header ul li .rss {
+  background-image: url("/s/rss-icon.png");
+}
+
+/* footer */
+footer {
+  clear: both;
+  margin-top: 40px;
+}
+
+footer ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 7px;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul li a {
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+  border-left: 1px solid white;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+footer ul li:first-child a {
+  border: 0;
+}
+
+/* content */
+#browsers {
+  margin-left: 40px;
+}
+
+#browsers img {
+  vertical-align: middle;
+  display: block;
+  float: left;
+}
+
+#browsers li {
+  margin-bottom: 12px;
+  clear: both;
+  height: 85px;
+}
+
+#browsers h3 {
+  display: inline;
+  font-size: 14pt;
+  color: rgb(3,93,58);
+  text-shadow: 0 1px #6effca;
+}
+
+#browsers span {
+  font-size: 15pt;
+  color: rgb(1,51,32);
+  text-shadow: 0 1px #6effca;
+}
+
+#browsers a {
+  color: rgb(3,0,0);
+}
+
+#browsers ul {
+  width: 450px;
+  float: left;
+  margin: 14px 0 0 18px;
+}
+
+#browsers ul li {
+  margin-bottom: auto;
+  height: 28px;
+}

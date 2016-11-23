@@ -1,0 +1,11 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Author: Jakub Kułak
+  Site: http://webascrazy.net
+  Twitter: jakub_kulak
+  Location: CDMX, Mexico
+
+/* SITE */
+  Standards: HTML, CSS

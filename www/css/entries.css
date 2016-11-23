@@ -1,0 +1,125 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-color: white; 
+  font-family: "Lucida sans", sans-serif;
+  font-size: 0.8em;
+}
+
+#site {
+  background: white;
+}
+
+#content {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.dashedbar {
+  height: 20px;
+  padding: 5px 0 0 7px;
+  display: block;
+  background: #999 url("/s/dashed.png");
+}
+
+/* header */
+
+header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 6px;
+}
+
+header ul li {
+  float: left;
+  text-indent: -9999px;
+}
+
+header ul li a {
+  width: 17px;
+  height: 16px;
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+}
+
+header ul li .twitter {
+  background-image: url("/s/twitter-icon.png");
+  width: 30px;
+}
+
+header ul li .flickr {
+  background-image: url("/s/flickr-icon.png");
+}
+
+header ul li .rss {
+  background-image: url("/s/rss-icon.png");
+}
+
+/* footer */
+footer {
+  clear: both;
+}
+
+footer ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 7px;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul li a {
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+  border-left: 1px solid white;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+footer ul li:first-child a {
+  border: 0;
+}
+
+h1 {
+  margin: 20px 0 20px 50px;
+  color: black;
+  font-size: 3.4em;
+}
+
+#entries {
+  background: url(/s/noise-bg.png);
+  border-top: 1px solid #aeaeae;
+  border-bottom: 1px solid #aeaeae;
+  padding: 20px 0 20px 50px;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+#entries li {
+  margin:20px 0;
+
+}
+
+#entries h2 {
+    color: black;
+}
+
+#entries a {
+  text-decoration: none;
+}
+
+

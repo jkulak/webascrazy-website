@@ -1,0 +1,111 @@
+body {
+  background: #16077D;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+}
+
+#site {
+  margin: 0 auto;
+}
+
+.dashedbar {
+  height: 20px;
+  padding: 5px 0 0 7px;
+  display: block;
+}
+
+/* header */
+
+header {
+    color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.links {
+  float: left;
+}
+
+header ul {
+  float: right;
+  list-style-type: none;
+  margin: 0 6px 0 0;
+}
+
+header ul li {
+  float: left;
+  text-indent: -9999px;
+}
+
+header ul li a {
+  width: 17px;
+  height: 16px;
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+}
+
+header ul li .twitter {
+  background-image: url("/s/twitter-icon.png");
+  width: 30px;
+}
+
+header ul li .flickr {
+  background-image: url("/s/flickr-icon.png");
+}
+
+header ul li .rss {
+  background-image: url("/s/rss-icon.png");
+}
+
+/* footer */
+footer {
+  clear: both;
+  margin-top: 40px;
+}
+
+footer ul {
+  float: right;
+  list-style-type: none;
+  margin: 0 7px 0 0;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul li a {
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+  border-left: 1px solid white;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+footer ul li:first-child a {
+  border: 0;
+}
+
+#bsod {
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}

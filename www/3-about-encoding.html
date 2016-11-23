@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Encoding - Web As Crazy</title> 
+    <meta name="description" content="Some basic information on character encoding. Differences, common elements, why you shoud use utf-8 for your websites."> 
+    <meta name="keywords" content="encoding, utf-8, unicode, iso-8859-2, latin 2, charset, character encoding"> 
+    <meta name="author" content="Jakub Kułak"> 
+    
+    <!--[if !IE 6]><!--> 
+    <link rel="stylesheet" href="css/2-ce.css" /> 
+    <!-- <script src="scripts/engine.min.js" type="text/javascript"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
+ 
+    <script src="/mint/?js" type="text/javascript"></script> --> 
+    <!--<![endif]--> 
+    <!--[if IE]><script type="text/javascript" src="scripts/assets/html5shiv.js"></script><![endif]--> 
+    <!--[if lte IE 6]><link rel="stylesheet" href="styles/ie6.css" /><![endif]--> 
+    <!--[if IE 7]><link rel="stylesheet" href="styles/ie7.css" /><![endif]--> 
+    <!--[if IE 8]><link rel="stylesheet" href="styles/ie8.css" /><![endif]--> 
+  </head> 
+  <body> 
+    <div id="site"> 
+      <header class="dashedbar"> 
+       <a href="/">Home</a> | <a href="/entries.html">Entries</a> | Works | About
+          <ul> 
+            <li><a href="http://www.flickr.com/photos/feedel/" class="flickr">My Flickr profile</a></li> 
+            <li><a href="http://www.twitter.com/jakub_kulak/" class="twitter">My Twitter profile</a></li> 
+            <li><a href="/feed.xml" class="rss">Web As Crazy RSS feed</a></li> 
+          </ul> 
+      </header> 
+ 
+<h1>Encoding</h1>
+<img id="artlogo" src="/s/2-ce/haiti.png" alt="" title="" />
+<ul id="paragraphs">
+  <li id="ascii"><img src="/s/2-ce/korean.png" alt="" title="" />
+    <p><strong>ASCII</strong> - is a 7-bit code for coding characters in computers and generally in all communication devices that use text. 7-bit (0x0000000 - 0x1111111) means it can represent 128 characters, from which some of them are not visible (control characters). PHP function <strong>ord()</strong> and <strong>chr()</strong> use as input and return values the ASCII codes/characters. Complete list with codes can be found here: <a  href="http://www.columbia.edu/kermit/ascii.html">http://www.columbia.edu/kermit/ascii.html</a></p></li>
+  <li id="iso8859"><img src="/s/2-ce/chars.png" alt="" title="" />
+    <p><strong>ISO-8859</strong> - is a set of 8-bit single-byte coded character encoding schemes. 8-bit (0x00000000 - 0x11111111) means that each of the encodings from ISO-8859 can represent 255 characters, from which some of them are not visible (control characters). For backward comatibility first 128 characters have same codes as in ASCII. Rest of the codes are assign to language specific characters, depending on ISO-8859 part.</p></li>
+  <li id="iso88592"><img src="/s/2-ce/pl.png" alt="" title="" />
+    <p><strong>ISO-8859-2</strong> - part 2 of ISO-8859 character encoding (also reffered as Latin-2). Created to be used with Central European languages like Bosnian, Polish, Croatian, Czech, Slovak, Slovene and some else. First 128 characters are same as ASCII codes.</p></li>
+  <li id="windows"><img src="/s/2-ce/zh.png" alt="" title="" />
+    <p><strong>Windows-1250</strong> - is MS Windows 8-bit character encoding for Cetral European languages. It has many of the same characters as ISO-8895-2 but in a different arrangement, which leads to some confusions.</p></li>
+  <li id="unicode"><img src="/s/2-ce/ar2.png" alt="" title="" />
+    <p><strong>Unicode</strong> - is a standard for consistent representation and handling of text expressed in most of the world's writing systems (e-mails, files, websites). Despite graphical representation it handles related items, such as character properties, rules for normalization, decomposition, collation, rendering, and bidirectional display order (for the correct display of text containing both right-to-left scripts, such as Arabic or Hebrew, and left-to-right scripts).</p></li>
+  <li id="utf8"><img src="/s/2-ce/ha2.png" alt="" title="" />
+   <p><strong>UTF-8</strong> - is a 8-bit <span>variable-length</span> character encoding for Unicode. This means that one character is represented by 1 to 4 bytes, so UTF-8 contains ways more characters than ISO-8895 and other local charsets. Unlike UTF-16 and UTF-32, UTF-8 is backward compatibile with ASCII (first 128 characters are the same) - this is one of the reasons UTF-8 got most popular from among unicode encodings.</p></li>
+  <li id="endianness"><img src="/s/2-ce/ar.png" alt="" title="" />
+    <p><strong>Endianness</strong> - either <span>little endian</span> (Le) or <span>big endian</span> (Be) is the byte order in representing multi-byte chops of data (characters in our case). Big endian stands for order where most significant byte is the first one.</p></li>
+  <li id="bom"><img src="/s/2-ce/zh2.png" alt="" title="" />
+    <p><strong>BOM</strong> - Byte Order Mark - in case two byte orders are possible, there must be something that indicates which one to use. This is where BOM comes in. It should appear at the start of the text stream. UTF-8 does not require BOM.</p></li>
+</ul>
+
+<p>
+<h2>Valuable insights</h2>
+<ul>
+  <li>Using UTF-8 lets you use different languages on a website together, without need to add encoding switching instructions.</li>
+  <li>Displaying UTF-8 ecoded text in any ISO8859 character set will affect in appearance of new characters, because all bytes from multi-byte UTF-8 characters would be displayed as deparate 1-byte characters.</li>
+</ul>
+</p>
+
+
+</body>
+</html>

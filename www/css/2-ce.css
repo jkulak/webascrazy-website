@@ -1,0 +1,164 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+body {
+  background-color: #c7c7c7;
+  font-family: Arial, Georgia, sans-serif;
+/*  background-image: url(/s/1-bv/bg.jpg);*/
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#site {
+  background-image: url("/s/2-ce/bg.png");
+  width: 920px;
+  margin: 0 auto;
+}
+
+.dashedbar {
+  height: 20px;
+  width: 913px;
+  padding: 5px 0 0 7px;
+  display: block;
+  background: #737373 url("/s/dashed.png");
+  font-family: Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+
+/* header */
+
+header {
+    color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 6px;
+
+}
+
+header ul li {
+  float: left;
+  text-indent: -9999px;
+}
+
+header ul li a {
+  width: 17px;
+  height: 16px;
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+}
+
+header ul li .twitter {
+  background-image: url("/s/twitter-icon.png");
+  width: 30px;
+}
+
+header ul li .flickr {
+  background-image: url("/s/flickr-icon.png");
+}
+
+header ul li .rss {
+  background-image: url("/s/rss-icon.png");
+}
+
+/* footer */
+footer {
+  clear: both;
+  margin-top: 40px;
+}
+
+footer ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 7px;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul li a {
+  display: block;
+  outline: medium none;
+  margin-left: 3px;
+  border-left: 1px solid white;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+footer ul li:first-child a {
+  border: 0;
+}
+
+/* content */
+
+h1 {
+  font-size: 10px;
+  text-indent: -9999px;
+  background: transparent url("/s/2-ce/encoding-s.png") no-repeat top left;
+  width: 574px;
+  height: 128px;
+  margin: 60px 60px 10px 45px;
+  float: left;
+}
+
+#artlogo {
+  display: block;
+  margin-top: 30px;
+}
+
+#paragraphs li {
+  padding: 30px;
+/*  border: 1px solid lime;*/
+height: 80px;
+}
+
+#paragraphs li img {
+  float: left;
+  margin-right: 30px;
+}
+
+#ascii p {
+  margin-top: 10px;
+}
+
+#iso8859 p {
+  margin-top: 10px;
+}
+
+#iso88592 p {
+  margin-top: 10px;
+}
+
+#ascii p {
+  margin-top: 10px;
+}
+
+#ascii p {
+  margin-top: 10px;
+}
+
+#ascii p {
+  margin-top: 10px;
+}
+
+#ascii p {
+  margin-top: 10px;
+}
